@@ -1,9 +1,8 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Артем Журавлев](https://up.htmlacademy.ru/javascript/20/user/1410513).
-<<<<<<< HEAD
 * Наставник: [Артем Зрилов](https://htmlacademy.ru/profile/id1045563).
-=======
+
 
 
 ---
