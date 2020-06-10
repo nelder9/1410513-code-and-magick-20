@@ -30,28 +30,15 @@ var similarWizardTemplate = document.querySelector('#similar-wizard-template')
   .content
   .querySelector('.setup-similar-item');
 
-var wizards = [
-  {
+var wizards = [];
+
+for (var i = 0; i < 5; i++) {
+  wizards.push({
     name: renderName() + renderSurName(),
     coatColor: renderCoatColor(),
     eyesColor: renderEyeColor()
-  },
-  {
-    name: renderName() + renderSurName(),
-    coatColor: renderCoatColor(),
-    eyesColor: renderEyeColor()
-  },
-  {
-    name: renderName() + renderSurName(),
-    coatColor: renderCoatColor(),
-    eyesColor: renderEyeColor()
-  },
-  {
-    name: renderName() + renderSurName(),
-    coatColor: renderCoatColor(),
-    eyesColor: renderEyeColor()
-  }
-];
+  });
+}
 
 var renderWizard = function (wizard) {
   var wizardElement = similarWizardTemplate.cloneNode(true);
