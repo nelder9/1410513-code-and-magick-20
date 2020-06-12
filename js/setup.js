@@ -32,7 +32,7 @@ var similarWizardTemplate = document.querySelector('#similar-wizard-template')
 
 var wizards = [];
 
-for (var i = 0; i < 5; i++) {
+for (var j = 0; j < 5; j++) {
   wizards.push({
     name: renderName() + renderSurName(),
     coatColor: renderCoatColor(),
